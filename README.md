@@ -10,7 +10,7 @@ Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cl
 
 ```sh
 $ git clone https://github.com/brainmadro/app4tcyb-server.git
-$ cd node-js-getting-started
+$ cd app4tcyb-server
 $ npm install
 $ npm start
 ```
