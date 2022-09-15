@@ -8,6 +8,6 @@ express()
   .set('view engine', 'ejs')
   .get('/', (req, res) => res.render('pages/index'))
   .get('/e', (req, res) => res.render('pages/index'))
-  .get('/test', (req, res) => res.render('¡FUNCIONA!'))
+  .get('/test', (req, res) => res.send('¡FUNCIONA!'))
   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
 
