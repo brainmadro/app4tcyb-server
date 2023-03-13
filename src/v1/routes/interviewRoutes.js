@@ -1,13 +1,10 @@
 const express = require("express");
+const interviewControllers = require("../controllers/interviewControllers");
 const router = express.Router();
 
-router.get("/", (req, res) => {
-  res.send("Get all interviews");
-});
+router.get("/", interviewControllers.getAllInterviews);
 
-router.get("/:workoutId", (req, res) => {
-  res.send("Get an existing workout");
-});
+router.get("/:commissioned", interviewControllers.getInterviewByCommissioned);
 
 router.post("/", (req, res) => {
   res.send("Create a new workout");
