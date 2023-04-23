@@ -1,0 +1,48 @@
+{
+  "interviews": [
+    {
+      "id": "ccec3fb0-85d7-4459-acd4-fb91e537bd1b",
+      "member": "Brian Madroñero",
+      "commissioned": "Vairon Forero",
+      "type": "Renovación de recomendación",
+      "date": "05/04/2023, 0:00:01 a. m.",
+      "createdAt": "22/4/2023, 7:22:13 p. m.",
+      "updatedAt": "22/4/2023, 7:22:13 p. m.",
+      "status": "pending",
+      "comments": ""
+    },
+    {
+      "id": "ccec3fb0-85d7-4459-acd4-fb91e537bd2b",
+      "member": "Gladys Chiquiza",
+      "commissioned": "Walter Saavedra",
+      "type": "Llamamiento",
+      "date": "18/04/2023, 0:00:01 a. m.",
+      "createdAt": "22/4/2023, 7:22:13 p. m.",
+      "updatedAt": "22/4/2023, 7:22:13 p. m.",
+      "status": "pending",
+      "comments": ""
+    },
+    {
+      "member": "Luisana Abreu",
+      "commissioned": "Roberto Polo",
+      "type": "Renovación recomendación",
+      "date": "13/04/2023",
+      "status": "Pendiente",
+      "comments": "",
+      "id": "eab6f16b-66a8-42e8-bc7a-3cae9a73da9c",
+      "createdAt": "22/4/2023, 7:30:16 p. m.",
+      "updatedAt": "22/4/2023, 7:30:16 p. m."
+    },
+    {
+      "member": "Liz Abreu",
+      "commissioned": "Walter Saavedra",
+      "type": "Relevo",
+      "date": "13/04/2023",
+      "status": "Pendiente",
+      "comments": "",
+      "id": "071904fa-7623-420f-b349-4b60fe265440",
+      "createdAt": "22/4/2023, 7:30:41 p. m.",
+      "updatedAt": "22/4/2023, 7:32:25 p. m."
+    }
+  ]
+}

@@ -1,21 +1,16 @@
 const express = require("express");
-const interviewControllers = require("../controllers/interviewControllers");
+const interviewController = require("../../controllers/interviewController");
+
 const router = express.Router();
 
-router.get("/", interviewControllers.getAllInterviews);
+router.get("/", interviewController.getAllInterviews);
 
-router.get("/:commissioned", interviewControllers.getInterviewByCommissioned);
+router.get("/:interviewId", interviewController.getOneInterview);
 
-router.post("/", (req, res) => {
-  res.send("Create a new workout");
-});
+router.post("/", interviewController.createNewInterview);
 
-router.patch("/:workoutId", (req, res) => {
-  res.send("Update an existing workout");
-});
+router.patch("/:interviewId", interviewController.updateOneInterview);
 
-router.delete("/:workoutId", (req, res) => {
-  res.send("Delete an existing workout");
-});
+router.delete("/:interviewId", interviewController.deleteOneInterview);
 
 module.exports = router;
